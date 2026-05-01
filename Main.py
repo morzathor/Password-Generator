@@ -5,7 +5,7 @@ import time
 ######## Connection Configurations ########
 uri = "mongodb://localhost:27017/"
 client = pymongo.MongoClient(uri)
-database = client["PasswordDB"]
+database = client["TGbot"]
 collection = database["Password-Collection"]
 
 ######## Existing Characters ########
